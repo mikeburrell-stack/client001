@@ -24,4 +24,11 @@ df2 = pd.DataFrame(
 
 st.line_chart(df2)
 
+x = st.slider('x')
+st.write(x,'Square the value', x * x)
+
+st.text_input("your name", key="name")
+
+st.session_state.name
+
 
