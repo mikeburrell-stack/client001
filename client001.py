@@ -32,8 +32,8 @@ st.text_input("your name", key="name")
 st.session_state.name
 
 col1,col2,col3 = st.columns(3)
-st.metric("USD", "18.01 $","0.5 $")
-st.metric("ZND", "15.01 $","-1.5 $")
-st.metric("BWP", "16.50 $","1.2 $")
+col1.metric("USD", "18.01 $","0.5 $")
+col2.metric("ZND", "15.01 $","-1.5 $")
+col3.metric("BWP", "16.50 $","1.2 $")
 
 
